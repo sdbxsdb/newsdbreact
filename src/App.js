@@ -14,13 +14,14 @@ function App() {
 
       <Nav />
 
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/contact" element={<Contact />} />
-          <Route exact path="/projects" element={<Projects />} />
-  
-        </Routes>
+        <div className="container mx-auto px-4">
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/about" element={<About />} />
+            <Route exact path="/contact" element={<Contact />} />
+            <Route exact path="/projects" element={<Projects />} />
+          </Routes>
+        </div>
 
     </div>
   );
